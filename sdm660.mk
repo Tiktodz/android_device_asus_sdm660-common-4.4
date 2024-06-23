@@ -11,6 +11,9 @@ $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-interfaces-product.mk
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-product-system.mk
 
+# Add common definitions for Qualcomm
+$(call inherit-product, hardware/qcom-caf/common/common.mk)
+
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
 # Default is nosdcard, S/W button enabled in resource
