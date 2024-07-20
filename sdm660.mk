@@ -367,7 +367,8 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     libnetutils.vendor \
     librmnetctl \
-    libsqlite.vendor:64
+    libsqlite.vendor:64 \
+    libsysutils.vendor
 
 # Recovery
 PRODUCT_PACKAGES += \
