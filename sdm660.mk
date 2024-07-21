@@ -329,8 +329,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
-    vendor.qti.hardware.perf@2.2.vendor
+    android.hardware.power-service.lineage-libperfmgr
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
@@ -412,7 +411,10 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/lineage/interfaces/power-libperfmgr
 
 # Telephony
 PRODUCT_PACKAGES += \
