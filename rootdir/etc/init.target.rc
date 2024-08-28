@@ -212,6 +212,9 @@ on property:init.svc.vendor.charger=running
     setprop vendor.usb.controller a800000.dwc3
     start vendor.power_off_alarm
 
+on property:init.svc.vendor.qcrild=stopped
+    stop vendor.radio-config-1-1-wrapper
+
 service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
      user root
