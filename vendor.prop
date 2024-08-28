@@ -207,5 +207,12 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 # UBWC
 vendor.video.disable.ubwc=1
 
+# USB
+ro.usb.uvc.enabled=true
+vendor.usb.diag.func.name=diag
+vendor.usb.use_ffs_mtp=1
+sys.usb.mtp.batchcancel=1
+vendor.usb.use_gadget_hal=1
+
 # Zygote
 zygote.critical_window.minute=10
