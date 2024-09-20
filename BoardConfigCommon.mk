@@ -6,6 +6,11 @@
 
 COMMON_PATH := device/asus/sdm660-common
 
+# Build
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+BUILD_BROKEN_DUP_RULES := true
+
+# ELF Prebuilts
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Architecture
