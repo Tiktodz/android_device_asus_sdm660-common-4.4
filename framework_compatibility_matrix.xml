@@ -402,4 +402,12 @@
         <instance>imsrtpservice</instance>
     </interface>
 </hal>
+<hal format="hidl" optional="true">
+    <name>vendor.qti.hardware.cryptfshw</name>
+    <version>1.0</version>
+    <interface>
+        <name>ICryptfsHw</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
