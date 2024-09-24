@@ -234,7 +234,7 @@ PRODUCT_PACKAGES += \
 
 # Lineage Health
 PRODUCT_PACKAGES += \
-    $(COMMON_PATH)/configs/org.lineageos.health.excluded.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.health.excluded.xml
+    vendor.lineage.health-service.default
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
