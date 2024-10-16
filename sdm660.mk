@@ -468,11 +468,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti \
     android.hardware.usb.gadget@1.2-service-qti
 
-# Verity
-PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
-PRODUCT_VENDOR_VERITY_PARTITION=/dev/block/bootdevice/by-name/vendor
-$(call inherit-product, build/target/product/verity.mk)
-
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
